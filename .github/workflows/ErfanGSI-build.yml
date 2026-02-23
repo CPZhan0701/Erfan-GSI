@@ -67,7 +67,7 @@ jobs:
           sudo bash ./url2GSI.sh --ab ${{ github.event.inputs.ROM_URL }} ${{ github.event.inputs.ROM_TYPE }}
 
       - name: 压缩 GSI
-        if: ${{ github.event.inputs.ALI }} != '1'
+        if: ${{ github.event.inputs.ALI != '1' }}
         run: |
           cd $GITHUB_WORKSPACE/ErfanGSIs
           pwd
