@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'Direct link/直链'
         required: true
-        default: 'https://mirrorbits.lineageos.org/full/sagit/20230302/lineage-20.0-20230302-nightly-sagit-signed.zip'
+        default: 'https://firmware-res.flyme.com/Firmware/Flyme/meizu18X/10.5.0.0/cn/20240327201551/720e8593/update.zip?auth_key=1771880037-0-0-f6638bd652e31ba1623da1a22821e4a385effc9363e47bc9aad5f10c'
       REPACK_NAME:
         description: 'Compressed name/打包名称'
         required: true
